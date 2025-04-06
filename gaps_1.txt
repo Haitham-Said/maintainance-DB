@@ -1,0 +1,24 @@
+Audit Trail	Keep track of status transitions (e.g., a request_status_history table) — for analytics and transparency.
+
+
+
+Notification System	What triggers notifications? Webhooks / FCM / Background job? Make sure it’s decoupled from the main flow so requests aren’t delayed.
+
+
+
+Reassignment Logic	What if the selected maintainer becomes unavailable before starting? Consider having a fallback or a "REASSIGN" flow.
+
+
+Preferred Time Handling	Does the system validate if a maintainer is available at the preferred time? That can be added later but it’s good to keep in mind.
+
+
+
+Pictures After Completion	Do maintainers need to upload an image after completion (for evidence)? If so, allow that.
+
+
+Admin View	Web portal should include filtering by building/company/date/status, etc
+
+
+
+
+Ratings	Simple customer_rate is great now. In future, consider full review/comments and a separate ratings table for historical tracking.
