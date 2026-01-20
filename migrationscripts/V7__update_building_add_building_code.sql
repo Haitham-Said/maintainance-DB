@@ -1,0 +1,2 @@
+ALTER TABLE buildings
+ADD COLUMN building_code VARCHAR(100) NOT NULL;
