@@ -1,0 +1,1 @@
+ALTER TABLE maintenance_requests DROP COLUMN IF EXISTS approval_actor;
